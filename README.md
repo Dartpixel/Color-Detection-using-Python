@@ -57,8 +57,7 @@ C. Next, we read the CSV file with pandas
 
 The pandas library is very useful when we need to perform various operations on data files like CSV. pd.read_csv() reads the CSV file and loads it into the pandas DataFrame. We have assigned each column with a name for easy accessing.
 
-CODE PIC HERE
-
+![code1](https://user-images.githubusercontent.com/89685890/224466434-1cfb2dcb-690b-4daf-abbf-b5bc4890b7b0.png)
 
 
 D. Set a mouse callback event on a window
