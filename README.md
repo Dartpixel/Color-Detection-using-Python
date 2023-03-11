@@ -49,20 +49,20 @@ B. Taking an image from the user
 
 
 We are using argparse library to create an argument parser. We can directly give an image path from the command prompt:
-CODE PIC HERE
 
+![code1](https://user-images.githubusercontent.com/89685890/224466670-be09aca0-9182-4f75-b1cd-698fbbc23c49.png)
 
 C. Next, we read the CSV file with pandas
 
 
 The pandas library is very useful when we need to perform various operations on data files like CSV. pd.read_csv() reads the CSV file and loads it into the pandas DataFrame. We have assigned each column with a name for easy accessing.
 
-![code1](https://user-images.githubusercontent.com/89685890/224466434-1cfb2dcb-690b-4daf-abbf-b5bc4890b7b0.png)
-
+![code2](https://user-images.githubusercontent.com/89685890/224466690-e4b3d70d-f803-4ee3-9108-c0431fe545aa.png)
 
 D. Set a mouse callback event on a window
 First, we created a window in which the input image will display. Then, we set a callback function which will be called when a mouse event happens.
-CODE PIC HERE
+
+![code3](https://user-images.githubusercontent.com/89685890/224466703-8e46e311-90dd-4661-b0ba-a43fec0402e5.png)
 
 E. Create the draw_function
 It will calculate the rgb values of the pixel which we double click. The function parameters have the event name, (x,y) coordinates of the mouse position, etc. In the function, we check if the event is double-clicked then we calculate and set the r,g,b values along with x,y positions of the mouse.
@@ -73,20 +73,32 @@ We have the r,g and b values. Now, we need another function which will return us
 Our distance is calculated by this formula:
 
 d = abs(Red – ithRedColor) + (Green – ithGreenColor) + (Blue – ithBlueColor)
-CODE PIC HERE
+
+![code5](https://user-images.githubusercontent.com/89685890/224466613-9017c760-0738-4b77-8be2-9e7544fde6d5.png)
 
 G. Display image on the window
 Whenever a double click event occurs, it will update the color name and RGB values on the window.
 
 Using the cv2.imshow() function, we draw the image on the window. When the user double clicks the window, we draw a rectangle and get the color name to draw text on the window using cv2.rectangle and cv2.putText() functions.
-CODE PIC HERE
+
+![code6](https://user-images.githubusercontent.com/89685890/224466602-ed4cdd8a-b5a9-4b80-a59f-0946eab5c770.png)
 
 H. Run Python File
 The beginner Python project is now complete, you can run the Python file from the command prompt. Make sure to give an image path using ‘-i’ argument. If the image is in another directory, then you need to give full path of the image:
-CODE PIC HERE
 
-  WHOLE CODE PIC
+![code7](https://user-images.githubusercontent.com/89685890/224466555-7aab44a9-684f-4686-86e2-ef36596ebbe2.png)
+
+![code8](https://user-images.githubusercontent.com/89685890/224466579-8672b688-af58-47c5-9fc8-2de435a10213.png)
+![code9](https://user-images.githubusercontent.com/89685890/224466585-413af912-e0fa-43dc-944d-b0120caab04e.png)
+![code10](https://user-images.githubusercontent.com/89685890/224466589-07101bcf-3c68-40ed-aac1-22ed290b1394.png)
+
 
 Output:
 Double click on the window to know the name of the pixel color
 With these lines, we named our window as ‘image’ and set a callback function which will call the draw_function() whenever a mouse event occurs.
+
+![result1](https://user-images.githubusercontent.com/89685890/224466716-fa35feff-6b38-4fdf-b246-4ad80e6777f6.png)
+
+![result2](https://user-images.githubusercontent.com/89685890/224466721-682160f7-0193-40b9-b097-2cd4539cf6f7.png)
+
+![result3](https://user-images.githubusercontent.com/89685890/224466724-aebd3c5e-7f41-49e7-be02-ea3070185429.png)
