@@ -104,4 +104,4 @@ With these lines, we named our window as ‘image’ and set a callback function
 ![result3](https://user-images.githubusercontent.com/89685890/224466724-aebd3c5e-7f41-49e7-be02-ea3070185429.png)
 
 
-If any suggestion or issue, please post it in issue section !!
+If any suggestion or issue, feel free to post it in issue section !!
