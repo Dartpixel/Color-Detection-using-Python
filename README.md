@@ -102,7 +102,7 @@ With these lines, we named our window as ‘image’ and set a callback function
 ![result2](https://user-images.githubusercontent.com/89685890/224466721-682160f7-0193-40b9-b097-2cd4539cf6f7.png)
 
 ![result3](https://user-images.githubusercontent.com/89685890/224466724-aebd3c5e-7f41-49e7-be02-ea3070185429.png)
-
+Outputs for the same.
 
 If any suggestion or issue, feel free to post it in issue section !!
 Thanks !!
