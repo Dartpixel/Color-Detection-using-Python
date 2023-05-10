@@ -30,7 +30,7 @@ The colors.csv file includes 865 color names along with their RGB and hex values
 
 
 
-Before starting with this Python project with source code, you should be familiar with the computer vision library of Python that is OpenCV and Pandas.
+Before starting with this Python project with the source code, you should be familiar with the computer vision library of Python that is OpenCV and Pandas.
 OpenCV, Pandas, and numpy are the Python packages that are necessary for this project in Python. To install them, simply run this pip command in your terminal:
 
 Steps for Building a Project in Python – Color Detection
