@@ -34,7 +34,7 @@ Before starting with this Python project with the source code, you should be fam
 OpenCV, Pandas, and numpy are the Python packages that are necessary for this project in Python. To install them, we have to simply run this pip command in your terminal:
 
 Steps for Building a Project in Python – Color Detection
-Here are the steps to build an application in Python that can detect colors:
+Here are the steps to build an application in Python that can detect colors from a image:
 
 
 ### Create Files 
