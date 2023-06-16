@@ -49,7 +49,7 @@ The project folder contains 3 files:
 ### Taking an image from the user
 
 
-We are using the argparse library to create an argument parser. We can directly give an image path from the command prompt:
+We are using the argparse library to create an argument parser. We can directly give an image path from the command prompt as below:
 
 ![code1](https://user-images.githubusercontent.com/89685890/224466670-be09aca0-9182-4f75-b1cd-698fbbc23c49.png)
 
