@@ -66,7 +66,7 @@ First, we created a window in which the input image will display. Then, we set a
 ![code3](https://user-images.githubusercontent.com/89685890/224466703-8e46e311-90dd-4661-b0ba-a43fec0402e5.png)
 
 ### Create the draw_function
-It will calculate the rgb values of the pixel which we double click. The function parameters have the event name, (x,y) coordinates of the mouse position, etc. In the function, we check if the event is double-clicked then we calculate and set the r,g,b values along with x,y positions of the mouse.
+It will calculate the rgb values of the pixel which we double click. The function parameters have the event name, (x,y) coordinates of the mouse position, etc. In the function, we check if the event is double-clicked then we calculate and set the r,g,b values along with the x,y positions of the mouse.
 
 ### Calculate distance to get color name
 We have the r,g and b values. Now, we need another function which will return us the color name from RGB values. To get the color name, we calculate a distance(d) which tells us how close we are to color and choose the one having minimum distance.
