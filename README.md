@@ -3,7 +3,7 @@ Context here
 
 
 
-Colour detection is the process of detecting the name of any color from the sample image. Simple isn’t it? Well, for humans this is an extremely easy task but for computers, it is not straightforward. Human eyes and brains work together to translate the light into the color. Light receptors that are present in our eyes transmit the signal to the brain. Our brain then recognizes the color. Since childhood, we have mapped certain lights with their color names. We will be using the somewhat same strategy to detect color names. Here is the p
+Colour detection is the process of detecting the name of any color from the sample image. Simple isn’t it? Well, for humans this is an extremely easy task but for computers, it is not straightforward. Human eyes and brains work together to translate the light into the color. Light receptors that are present in our eyes transmit the signal to the brain. Our brain then recognizes the color . Since childhood, we have mapped certain lights with their color names. We will be using the somewhat same strategy to detect color names. Here is the p
 
 
 
@@ -21,7 +21,7 @@ In this color detection Python project, we are going to build a color detecting 
 ◼ The Dataset
 
 
-Colors are made up of 3 primary colors; red, green, and blue. In computers, we define each color value within a range of 0 to 255. So in how many ways we can define a color? The answer is 256*256*256 = 16,581,375. There are approximately 16.5 million different ways to represent a color. In our dataset, we need to map each color’s values with their corresponding names. But don’t worry, we don’t need to map all values. We will be using a dataset that contains RGB values with their corresponding names. The CSV file for our dataset has been taken from this link: Colors Dataset
+Colors are made up of 3 primary colors; red, green, and blue. In computers, we define each color value within a range of 0 to 255. So in how many ways we can define a color? The answer is 256*256*256 = 16,581,375. There are approximately 16.5 million different ways to represent a color. In our current dataset, we need to map each color’s values with their corresponding names. But don’t worry, we don’t need to map all values. We will be using a dataset that contains RGB values with their corresponding names. The CSV file for our dataset has been taken from this link: Colors Dataset
 The colors.csv file includes 865 color names along with their RGB and hex values.
 
 
