@@ -3,7 +3,7 @@ Context here
 
 
 
-Colour detection is the process of detecting the name of any color from the sample image. Simple isn’t it? Well, for humans this is an extremely easy task but for computers, it is not straight forward. Human eyes and brains work together to translate the light into the color. Light receptors that are present in our eyes transmit the signal to the brain. Our brain then recognizes the color . Since childhood, we have mapped certain lights with their color names. We will be using the somewhat same strategy to detect color names. Here is the pic
+Colour detection is the process of detecting the name of any color from the sample image. Simple isn’t it? Well, for humans this is an extremely easy task but for computers, it is not straight forward. Human eyes and brains work together to translate the light into the color. Light receptors that are present in our eyes transmit the signal to the brain. Our brain then recognizes the color . Since childhood, we have mapped certain lights with their color names. We will be using the somewhat same strategy to detect color names. Here is the project:
 
 
 
